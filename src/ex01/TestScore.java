@@ -43,7 +43,7 @@ class Score {
 	private void getGrade() {
 		int v = (int) this.avg / 10;
 		switch( v ) {
-		case 10 : this.grade = 'A'; break;
+		case 10 : this.grade = 'A'; // 둘다 'A'라서 break 안써도대
 		case 9 	: this.grade = 'A'; break;
 		case 8 	: this.grade = 'B'; break;
 		case 7 	: this.grade = 'C'; break;
